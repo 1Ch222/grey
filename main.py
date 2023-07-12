@@ -59,9 +59,9 @@ def convert_images_to_greyscale(input_folder, output_folder):
                         pixels[x, y] = matching_class.grey
 
             # Sauvegarder l'image modifiée au format JPEG
-            image.save(output_path, "JPEG")
+            image.save(output_path, "png")
 
 # Exemple d'utilisation
-input_folder = "/home/poc2014/dataset/temp/INFRA10/semantic_segmentation_truth/train/Paris5_6/"
-output_folder = "/home/poc2014/grey_output/g_Paris5_6"
+input_folder = "/home/poc2014/dataset/temp/INFRA10/semantic_segmentation_truth/train/Anthony-Blr/"
+output_folder = "/home/poc2014/grey_output/g_Anthony-Blr"
 convert_images_to_greyscale(input_folder, output_folder)
