@@ -62,6 +62,6 @@ def convert_images_to_greyscale(input_folder, output_folder):
             image.save(output_path, "png")
 
 # Exemple d'utilisation
-input_folder = "/home/poc2014/dataset/temp/INFRA10/semantic_segmentation_truth/val/Palaiseau/"
-output_folder = "/home/poc2014/grey_output/g_Palaiseau"
+input_folder = "/home/poc2014/dataset/temp/INFRA10/semantic_segmentation_truth/test/Verrieres/"
+output_folder = "/home/poc2014/grey_output/g_Verrieres"
 convert_images_to_greyscale(input_folder, output_folder)
